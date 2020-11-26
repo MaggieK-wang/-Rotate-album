@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Photoes</title>
+  <link rel="stylesheet" type="text/css" href="photo.css" />
+  <!-- <link rel="stylesheet" type="text/css" href="/resource/css/base.css" /> -->
+  <script src="../resource/js/echarts.min.js"></script>
+  <script src="../resource/js/datav.js"></script>
+  <script src="../resource/js/vue.min.js"></script>
+  <script src="https://unpkg.com/vue"></script>
+  <!--调试版-->
+  <!-- <script src="https://unpkg.com/@jiaminghi/data-view/dist/datav.map.vue.js"></script> -->
+  <style lang="scss" scoped>
+    @import url('/dy-smartcity/css.scss');
+  </style>
+</head>
+
+<body>
+  <div id="app">
+    <div class="scoll">
+      <div class="ball">
+        <div class="page"></div>
+        <div class="page"></div>
+        <div class="page"></div>
+        <div class="page"></div>
+        <div class="page"></div>
+        <div class="page"></div>
+      </div>
+      <div class="container">
+        <figure>
+          <dv-border-box-8>
+            <img src="./img/IMG_3772.jpg" alt="3772" srcset="">
+          </dv-border-box-8>
+        </figure>
+        <figure>
+          <dv-border-box-8><img src="./img/IMG_3776.jpg" alt="3776" srcset=""></dv-border-box-8>
+        </figure>
+        <figure>
+          <dv-border-box-8><img src="./img/IMG_3791.jpg" alt="3791" srcset=""></dv-border-box-8>
+        </figure>
+        <figure>
+          <dv-border-box-8><img src="./img/IMG_3812.jpg" alt="3812" srcset=""></dv-border-box-8>
+        </figure>
+        <figure>
+          <dv-border-box-8><img src="./img/IMG_3815.jpg" alt="3815" srcset=""></dv-border-box-8>
+        </figure>
+        <figure>
+          <dv-border-box-8><img src="./img/IMG_3818.jpg" alt="3818" srcset=""></dv-border-box-8>
+        </figure>
+        <figure>
+          <dv-border-box-8><img src="./img/IMG_3823.jpg" alt="3823" srcset=""></dv-border-box-8>
+        </figure>
+        <figure>
+          <dv-border-box-8><img src="./img/IMG_3826.jpg" alt="3826" srcset=""></dv-border-box-8>
+        </figure>
+      </div>
+    </div>
+    <!-- <div class="content">
+      <div class="content_one content_box">
+        <dv-border-box-8>content</dv-border-box-8>
+      </div>
+      <div class="content_two content_box">
+        <dv-border-box-8>content</dv-border-box-8>
+      </div>
+      <div class="content_three content_box">
+        <dv-border-box-8>content</dv-border-box-8>
+      </div> -->
+  </div>
+  </div>
+</body>
+
+
+<script>
+  var vue = new Vue({
+    el: '#app',
+    data() {
+      return {
+
+      }
+    }
+  });
+</script>
+
+</html>
